@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\IPay\\IPay\\IPay.csproj": {}
+    "/Users/ishah/Documents/GitHub/Project/IPay/IPay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\BusinessManager.csproj": {
+    "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\BusinessManager.csproj",
+        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj",
         "projectName": "BusinessManager",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\BusinessManager.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\obj\\",
+        "projectPath": "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj",
+        "packagesPath": "/Users/ishah/.nuget/packages/",
+        "outputPath": "/Users/ishah/Documents/GitHub/Project/BusinessManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ishah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj"
+              "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj"
               }
             }
           }
@@ -84,36 +82,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj": {
+    "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\obj\\",
+        "projectPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/ishah/.nuget/packages/",
+        "outputPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ishah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\Model.csproj"
+              "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {
+                "projectPath": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj"
               }
             }
           }
@@ -168,39 +164,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\IPay\\IPay\\IPay.csproj": {
+    "/Users/ishah/Documents/GitHub/Project/IPay/IPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\IPay\\IPay.csproj",
+        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/IPay/IPay.csproj",
         "projectName": "IPay",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\IPay\\IPay.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\IPay\\obj\\",
+        "projectPath": "/Users/ishah/Documents/GitHub/Project/IPay/IPay.csproj",
+        "packagesPath": "/Users/ishah/.nuget/packages/",
+        "outputPath": "/Users/ishah/Documents/GitHub/Project/IPay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ishah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\BusinessManager.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\BusinessManager\\BusinessManager.csproj"
+              "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj": {
+                "projectPath": "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj"
               },
-              "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\DataAccess\\DataAccess.csproj"
+              "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj"
               }
             }
           }
@@ -266,28 +260,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\Model.csproj": {
+    "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\Model.csproj",
+        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\IPay\\Model\\obj\\",
+        "projectPath": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
+        "packagesPath": "/Users/ishah/.nuget/packages/",
+        "outputPath": "/Users/ishah/Documents/GitHub/Project/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ishah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -346,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
