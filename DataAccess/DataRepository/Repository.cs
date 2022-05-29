@@ -21,20 +21,20 @@ namespace DataAccess.DataRepository
             return appDbContext.SaveChanges();
         }
 
-        //public int Delete<T>(T model) where T : class
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public int Delete<T>(T model) where T : class
+        {
+            throw new NotImplementedException();
+        }
 
-        //public void Delete<T>(Guid id) where T : class
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void Delete<T>(Guid id) where T : class
+        {
+            throw new NotImplementedException();
+        }
 
-        //public int DeleteAndSave<T>(Guid id) where T : class
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public int DeleteAndSave<T>(Guid id) where T : class
+        {
+            throw new NotImplementedException();
+        }
 
         public IQueryable<T> FindBy<T>(Expression<Func<T, bool>> predicate) where T : class
         {
@@ -46,10 +46,10 @@ namespace DataAccess.DataRepository
           return appDbContext.Set<T>();
         }
 
-        //public T GetById<T>(Guid id) where T : class
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public T GetById<T>(Guid id) where T : class
+        {
+            throw new NotImplementedException();
+        }
 
         public bool IsExist<T>(Expression<Func<T, bool>> predicate) where T : class
         {

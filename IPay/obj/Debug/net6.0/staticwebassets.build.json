@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nsxtBxNDxxRXkIEnAEjYpGIdQLmPht9Qch3pQXLlkzA=",
+  "Hash": "dM5YgESQgwS7AsMZpGUcdZZuaF1v1S99NBf/qxPwCqY=",
   "Source": "IPay",
   "BasePath": "_content/IPay",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ishah/Documents/GitHub/Project/IPay/obj/Debug/net6.0/scopedcss/projectbundle/IPay.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/ishah/Documents/GitHub/Project/IPay/wwwroot/.DS_Store",
+      "SourceId": "IPay",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ishah/Documents/GitHub/Project/IPay/wwwroot/",
+      "BasePath": "_content/IPay",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/ishah/Documents/GitHub/Project/IPay/wwwroot/css/site.css",

@@ -6,7 +6,7 @@
 }
 
 @{
-    if (ViewBag.Message!=null)
+    if (ViewBag.Message != null)
     {
         if (ViewBag.Message > 0)
         {
@@ -19,75 +19,107 @@
     }
 }
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<style>
+    .lb {
+        font-size: 28px;
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
 
+    .col1 {
+        margin: auto;
+    }
+
+    h1, h4 {
+        text-align: center;
+    }
+
+    lin {
+        font-size: 1.7rem;
+        padding: 1rem 1.5rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+    }
+
+    select#Gender {
+        background-color: aliceblue;
+        padding: .5rem;
+        border-radius: 6px;
+        font-weight: 300;
+    }
+
+    .list {
+        margin: auto;
+        text-align: center;
+    }
+    .row1{
+        background-color:aliceblue;
+    }
+    input.btn.btn-primary.lb{
+        background-color:cadetblue;
+    }
+</style>
 <h1>SignUp</h1>
 
-<h4>UserRequest</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row row1">
+    <div class="col-md-4 col1">
         <form asp-action="SignUp">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             @*<div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>*@
+                    <label asp-for="Id" class="control-label"></label>
+                    <input asp-for="Id" class="form-control" />
+                    <span asp-validation-for="Id" class="text-danger"></span>
+                </div>*@
+
+
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <label asp-for="Name" class="control-label lb"></label>
+                <input asp-for="Name" class="form-control lin" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <label asp-for="Email" class="control-label lb"></label>
+                <input asp-for="Email" class="form-control lin" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Gender" class="control-label"></label>
-                  <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()">
+                <label asp-for="Gender" class="control-label lb"></label>
+                <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()">
                     <option value="">Select Gender</option>
                 </select>
                 <span asp-validation-for="Gender" class="text-danger"></span>
             </div>
+
+
+
             <div class="form-group">
-                <label asp-for="userRole" class="control-label"></label>
-                  <select asp-for="userRole" asp-items="Html.GetEnumSelectList<UserRole>().Skip(1)">
-                    <option value="">Select Role</option>
-                </select>
-                <span asp-validation-for="userRole" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="_password" class="control-label"></label>
-                <input asp-for="_password" class="form-control" />
+                <label asp-for="_password" class="control-label lb"></label>
+                <input asp-for="_password" class="form-control lin" />
                 <span asp-validation-for="_password" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="_confirmPassword" class="control-label"></label>
-                <input asp-for="_confirmPassword" class="form-control" />
+                <label asp-for="_confirmPassword" class="control-label lb "></label>
+                <input asp-for="_confirmPassword" class="form-control lin" />
                 <span asp-validation-for="_confirmPassword" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Balance" class="control-label"></label>
-                <input asp-for="Balance" class="form-control" />
-                <span asp-validation-for="Balance" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="_pin" class="control-label"></label>
-                <input asp-for="_pin" class="form-control" />
+                <label asp-for="_pin" class="control-label lb"></label>
+                <input asp-for="_pin" class="form-control lin" />
                 <span asp-validation-for="_pin" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary lb" />
             </div>
+
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="list row1">
+    <a style="color: #212b34" asp-action="Index">Back to List</a>
 </div>
 
 @*@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}*@
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@

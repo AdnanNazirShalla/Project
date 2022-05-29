@@ -1,13 +1,12 @@
 ﻿using DataAccess.DataRepository;
 using DataAccess.DbModels;
 using Model;
-using System.Transactions;
 
 namespace BusinessManager
 {
     public class UserManager
     {
-        private readonly IRepository repository ;
+        private readonly IRepository repository = null;
         public UserManager(IRepository repository)
         {
             this.repository = repository;
@@ -44,7 +43,7 @@ namespace BusinessManager
         {
             User user = new User()
             {
-                Id = userRequest.Id,
+                Id = Guid.NewGuid(),
                 Name = userRequest.Name,
                 Email = userRequest.Email,
                 Password = userRequest._password,
@@ -52,7 +51,7 @@ namespace BusinessManager
                 Pin = userRequest._pin,
                 userRole = userRequest.userRole,
                 Balance = userRequest.Balance,
-                Date = userRequest.date
+                Date = DateTime.Now,
             };
             return repository.UpdateAndSave<User>(user);
         }
@@ -83,14 +82,5 @@ namespace BusinessManager
                 return loginResponse;
             }
         }
-
-       
     }
-
-  
-
-    //public void SendMoney()
-    //{
-
-    //}
 }

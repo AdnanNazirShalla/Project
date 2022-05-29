@@ -30,6 +30,6 @@ namespace DataAccess.DbModels
 
         public DateTime Date { get; set; }
 
-        public ICollection<BankTransaction> bankTransaction { get; set; }
+        public BankTransaction transaction { get; set; }
     }
 }

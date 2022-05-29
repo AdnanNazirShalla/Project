@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ishah/Documents/GitHub/Project/IPay
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ishah/Documents/GitHub/Project/IPay/Views/Account/SendMoney.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9TZW5kTW9uZXkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/ishah/Documents/GitHub/Project/IPay/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

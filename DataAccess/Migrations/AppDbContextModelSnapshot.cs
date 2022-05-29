@@ -25,7 +25,6 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("DataAccess.DbModels.BankTransaction", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("Credit")
@@ -37,14 +36,9 @@ namespace DataAccess.Migrations
                     b.Property<DateTime>("dateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("userId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("userId");
-
-                    b.ToTable("Transactions");
+                    b.ToTable("BankTransaction");
                 });
 
             modelBuilder.Entity("DataAccess.DbModels.User", b =>
@@ -90,18 +84,19 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("DataAccess.DbModels.BankTransaction", b =>
                 {
-                    b.HasOne("DataAccess.DbModels.User", "User")
-                        .WithMany("bankTransaction")
-                        .HasForeignKey("userId")
+                    b.HasOne("DataAccess.DbModels.User", "user")
+                        .WithOne("transaction")
+                        .HasForeignKey("DataAccess.DbModels.BankTransaction", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("user");
                 });
 
             modelBuilder.Entity("DataAccess.DbModels.User", b =>
                 {
-                    b.Navigation("bankTransaction");
+                    b.Navigation("transaction")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
