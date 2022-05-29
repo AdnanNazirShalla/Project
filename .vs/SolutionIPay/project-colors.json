@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9f85cd8e-a10a-4775-a1eb-3bac1500fe5f": {
+      "ProjectGuid": "9f85cd8e-a10a-4775-a1eb-3bac1500fe5f",
+      "DisplayName": "IPay",
+      "ColorIndex": 0
+    },
+    "b1b7cfb9-86e8-469d-a97f-16e58287ac6b": {
+      "ProjectGuid": "b1b7cfb9-86e8-469d-a97f-16e58287ac6b",
+      "DisplayName": "Model",
+      "ColorIndex": 1
+    },
+    "ab378e4c-7cc0-4c2c-8729-64c80cf059ba": {
+      "ProjectGuid": "ab378e4c-7cc0-4c2c-8729-64c80cf059ba",
+      "DisplayName": "BusinessManager",
+      "ColorIndex": 2
+    },
+    "c23a07cd-3b45-48c2-b4b9-0868086221f3": {
+      "ProjectGuid": "c23a07cd-3b45-48c2-b4b9-0868086221f3",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
