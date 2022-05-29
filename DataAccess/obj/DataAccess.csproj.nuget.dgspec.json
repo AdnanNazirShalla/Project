@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj",
-        "packagesPath": "/Users/ishah/.nuget/packages/",
-        "outputPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/obj/",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ishah/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {
-                "projectPath": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj"
+              "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj"
               }
             }
           }
@@ -82,26 +84,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
-        "packagesPath": "/Users/ishah/.nuget/packages/",
-        "outputPath": "/Users/ishah/Documents/GitHub/Project/Model/obj/",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ishah/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

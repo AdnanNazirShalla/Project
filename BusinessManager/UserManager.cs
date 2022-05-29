@@ -26,8 +26,8 @@ namespace BusinessManager
                     Gender = userRequest.Gender,
                     Pin = userRequest._pin,
                     userStatus = UserStatus.Active,
-                    userRole = userRequest.userRole,
-                    Balance=userRequest.Balance,
+                    userRole = UserRole.Customer,
+                    Balance=0,
                     Date = DateTime.Now,
                 };
                 return repository.AddandSave<User>(user);

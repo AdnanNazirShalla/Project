@@ -6,7 +6,7 @@ namespace Model
     {
         public Guid Id { get; set; }
 
-        [Required(ErrorMessage ="Required!")]
+        [Required(ErrorMessage = "Required!")]
         public string Name { get; set; }
 
 
@@ -18,9 +18,10 @@ namespace Model
         public Gender Gender { get; set; }
 
 
-        [Required(ErrorMessage = "Required!")]
+
         public UserRole userRole { get; set; }
 
+        public UserStatus userStatus { get; set; }
 
         [Required(ErrorMessage = "Required!")]
         [DataType(DataType.Password)]
@@ -31,15 +32,17 @@ namespace Model
         [Compare(nameof(_password), ErrorMessage = "Password Does Not Match!")]
         [DataType(DataType.Password)]
         [Display(Name = "Confirm Password")]
-      
+
         public string _confirmPassword { get; set; }
 
         [Required(ErrorMessage = "Required!")]
-        public double Balance { get; set;}
+        public double Balance { get; set; }
 
 
         [Required(ErrorMessage = "Required!")]
         public int _pin { get; set; }
+
+        public DateTime date { get; set; }
     }
 
 
@@ -53,11 +56,11 @@ namespace Model
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-       
+
         public bool RememberMe { get; set; }
     }
 
-    public class LoginResponse: UserRequest
+    public class LoginResponse : UserRequest
     {
         public bool HasError { get; set; }
     }

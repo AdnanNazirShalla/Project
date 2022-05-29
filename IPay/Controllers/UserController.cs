@@ -69,7 +69,7 @@ namespace IPay.Controllers
                     ExpiresUtc = DateTime.UtcNow.AddSeconds(30)
                 });
                 
-                return RedirectToAction("privacy","home");
+                return RedirectToAction("index","account");
             }
             
         }

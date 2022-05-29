@@ -16,5 +16,7 @@ namespace DataAccess.ContextDb
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<BankTransaction> Transactions { get; set; }
     }
 }
