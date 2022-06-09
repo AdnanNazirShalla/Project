@@ -3,5 +3,137 @@
 *@
 @{
 }
-welcome @User.GetUserName()
-<a asp-controller="Account"  asp-action="SendMoney">Send</a> 
+<style>
+    .start {
+        width: 20%;
+        height: 50px;
+        padding: 8px;
+        font-size: 32px;
+        font-family: fangsong;
+    }
+    .main--body {
+        background-color: #b3d1d5;
+    }
+    .heading {
+        font-size: 62px;
+        margin: auto;
+        font-family: fangsong;
+    }
+    .heading--div {
+        text-align: center;
+        height: 100px;
+        background-color: #869ab1;
+        color:darkslategray;
+        border:5px black;
+        margin-bottom:20px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 86px;
+        grid-gap: 15px;
+        background-color: darkslategray;
+        padding-top:7px;
+    }
+    .user {
+        max-width: 70px;
+    }
+    .balance{
+        max-width:75px;
+    }
+    .mail{
+        max-width:90px
+    }
+    .grid-2{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr ;
+     
+        grid-gap:15px;
+        text-align:center;
+        text-decoration:none;
+
+    }
+    .transfer{
+        width:50px
+    }
+
+    .fund-transfer {
+        width: 259px;
+        height: 218px;
+        margin-top: 13px;
+    }
+    
+    .password {
+        width: 259px;
+        height: 239px;
+    }
+    .profile {
+        margin-top: 5px;
+        height: 227px;
+        width: 246px;
+    }
+    .send-money {
+        display: block;
+        height: 41px;
+        width: 125px;
+        text-align: center;
+        font-size: 25px;
+        margin: auto;
+        padding: 3px;
+        text-decoration: none;
+        color: darkturquoise;
+    }
+ .logout{
+     max-width:85px;
+     margin-left:74px;
+ }
+</style>
+<div class="heading--div">
+
+
+    <p class="heading"> Welcome To Ipay</p>
+</div>
+<div class="grid">
+    <div >
+      <img   class="user" src = "http://localhost:5230/LayoutImages/user.png"/> @User.GetUserName()
+    </div>
+    <div >
+        <img class="balance" src="http://localhost:5230/LayoutImages/balance.png" />
+    </div>
+    <div>
+        <img class="mail" src="http://localhost:5230/LayoutImages/mail-02.jpg" />
+
+    </div>
+    <div>
+      
+            <img class="logout" src="http://localhost:5230/LayoutImages/logout1.png" alt="logout" />
+        
+    </div>
+    </div>
+
+
+
+
+
+
+<div class="grid-2">
+    <div>
+        <img class="profile" src="http://localhost:5230/LayoutImages/user2.png" alt="" />
+
+    </div>
+  
+    <div>
+        <img class="fund-transfer" src="http://localhost:5230/LayoutImages/online-banking.png" alt="Fundtransfer" />
+        <a class="send-money" asp-controller="Account" asp-action="SendMoney">Transfer &raquo;</a>
+
+    </div>
+    <div>
+
+        <img class="password" src="http://localhost:5230/LayoutImages/password.png" alt="password" />
+
+    </div>
+
+   
+</div>
+
+

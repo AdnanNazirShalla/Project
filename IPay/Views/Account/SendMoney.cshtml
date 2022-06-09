@@ -4,42 +4,104 @@
     ViewData["Title"] = "SendMoney";
 }
 
-<h1>SendMoney</h1>
 
-<h4>TransactionRequest</h4>
-<hr />
+
+    <style>
+
+.grid-3{
+
+
+    display:grid;
+    grid-template-rows:.5fr .5fr;
+    grid-gap:16px;
+
+    }
+        .image {
+            width: 250px;
+            margin: auto;
+}
+
+        .transfer{
+            margin:auto;
+        }
+        .t1 {
+            width: 400px;
+            height: 434px;
+            margin: auto;
+            text-align: center;
+            padding: 6px;
+            line-height: 42px;
+            font-size: 32px;
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+            border-radius: 6px;
+            margin-bottom: 7px;
+        }
+        .form-control {
+
+            padding-bottom: 16px;
+            position: relative;
+            background-color: beige;
+            border-radius: 5px;
+            font-size:21px;
+            padding-top:7px;
+        }
+        .email{
+            margin-top:34px;
+        }
+        .pin{
+            margin-right:63px;
+        }
+        label.control-label{
+            display:block;
+        }
+    </style>
+
+
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="SendMoney">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <input asp-for="Id" type="hidden" value="@User.GetUserId()" class="form-control" />
+        <div class="grid-3">
+            <div class="transfer">
+
+
+                <img class="image" src="http://localhost:5230/LayoutImages/transfer.png" alt="transfer" />
             </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+            <div class="transfer t1">
+
+
+                <form asp-action="SendMoney">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <input asp-for="Id" type="hidden" value="@User.GetUserId()" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label email"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Amount" class="control-label"></label>
+                        <input asp-for="Amount" class="form-control" />
+                        <span asp-validation-for="Amount" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Pin" class="control-label pin"></label>
+                        <input asp-for="Pin" class="form-control" />
+                        <span asp-validation-for="Pin" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+                <div>
+                    <a asp-action="Index">Back to List</a>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Amount" class="control-label"></label>
-                <input asp-for="Amount" class="form-control" />
-                <span asp-validation-for="Amount" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pin" class="control-label"></label>
-                <input asp-for="Pin" class="form-control" />
-                <span asp-validation-for="Pin" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @*@section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
