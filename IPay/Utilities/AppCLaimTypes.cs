@@ -6,5 +6,6 @@
         public const string name = nameof(name);
         public const string email = nameof(email);
         public const string balance=nameof(balance);
+        public const string pin=nameof(pin);
     }
 }

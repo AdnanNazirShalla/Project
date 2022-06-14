@@ -29,7 +29,7 @@ namespace BusinessManager
             bankTransaction.userId = sender.Id;
             bankTransaction.dateTime = DateTime.Now;
             User receiver = repository.FindBy<User>(x => x.Email == transaction.Email).FirstOrDefault();
-            if (receiver != null)
+            if (receiver != null && sender.Balance-transaction.Amount>0)
             {
                 sender.Balance = sender.Balance - transaction.Amount;
                 var a = repository.AddandSave<BankTransaction>(bankTransaction);
@@ -46,8 +46,14 @@ namespace BusinessManager
                 loginResponse.date = receiver.Date;
                 loginResponse._pin = receiver.Pin;
 
+                return loginResponse;
             }
-            return loginResponse;
+            else
+            {
+                loginResponse.HasError = true;
+                return loginResponse;
+            }
+            
         }
 
         public int UpdateCreditor(Transfer transfer)
@@ -66,5 +72,7 @@ namespace BusinessManager
             return res;
         }
 
+
+        
     }
 }

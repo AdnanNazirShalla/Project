@@ -46,31 +46,40 @@ namespace IPay.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> LogIn(LoginRequest loginRequest)
         {
-            LoginResponse loginResponse= userManager.Login(loginRequest);
-            if (loginResponse.HasError)
-            {
-                ViewBag.Error = "Invalid Credentials";
-                return View();
-            }
+            
 
-            else
-            {
+
+                LoginResponse loginResponse = userManager.Login(loginRequest);
+                if (loginResponse.HasError)
+                {
+                    ViewBag.Error = "Invalid Credentials";
+                    return View();
+                }
+
+
+                else
+                {
+             //  ViewBag.Transactions= userManager.GetUserTransaction(loginResponse.Id);
+
                 ClaimsIdentity identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
 
-                identity.AddClaim(new Claim(AppCLaimTypes.id, loginResponse.Id.ToString()));
-                identity.AddClaim(new Claim(AppCLaimTypes.name, loginResponse.Name));
-                identity.AddClaim(new Claim(AppCLaimTypes.email, loginResponse.Email));
+                    identity.AddClaim(new Claim(AppCLaimTypes.id, loginResponse.Id.ToString()));
+                    identity.AddClaim(new Claim(AppCLaimTypes.name, loginResponse.Name));
+                    identity.AddClaim(new Claim(AppCLaimTypes.email, loginResponse.Email));
+                    identity.AddClaim(new Claim(AppCLaimTypes.balance, loginResponse.Balance.ToString()));
+                    identity.AddClaim(new Claim(AppCLaimTypes.pin, loginResponse._pin.ToString()));
 
-                ClaimsPrincipal principal = new ClaimsPrincipal(identity);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties
-                {
-                    IsPersistent = loginRequest.RememberMe,
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTime.UtcNow.AddSeconds(30)
-                });
-                
-                return RedirectToAction("index","account");
-            }
+                    ClaimsPrincipal principal = new ClaimsPrincipal(identity);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties
+                    {
+                        IsPersistent = loginRequest.RememberMe,
+                        AllowRefresh = true,
+                        ExpiresUtc = DateTime.UtcNow.AddSeconds(30)
+                    });
+
+                    return RedirectToAction("index", "account");
+                }
+            
             
         }
 
