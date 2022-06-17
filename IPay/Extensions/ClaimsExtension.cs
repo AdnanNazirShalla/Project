@@ -26,6 +26,12 @@ namespace IPay
         {
             return principal?.Claims?.FirstOrDefault(x => x.Type == AppCLaimTypes.balance)?.Value;
         }
+
+
+        public static string? GetUserPin(this ClaimsPrincipal principal)
+        {
+            return principal?.Claims?.FirstOrDefault(x => x.Type == AppCLaimTypes.pin)?.Value;
+        }
     }
 }
 

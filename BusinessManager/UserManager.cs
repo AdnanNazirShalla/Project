@@ -79,8 +79,27 @@ namespace BusinessManager
                 loginResponse.Name = user.Name;
                 loginResponse.Email = user.Email;
                 loginResponse.Balance = user.Balance;
+                loginResponse._pin = user.Pin;
                 return loginResponse;
             }
         }
+
+
+        public IEnumerable<TransactionResponse> GetUserTransaction(Guid id)
+        {
+            List<TransactionResponse> Responses = new List<TransactionResponse>();
+
+            foreach (var item in repository.FindBy<BankTransaction>(x => x.userId == id))
+            {
+                TransactionResponse response = new TransactionResponse();
+                response.Debit = item.Debit;
+                response.Credit = item.Credit;
+                response.dateTime = item.dateTime;
+
+                Responses.Add(response);
+            }
+            return Responses;
+        }
     }
+
 }

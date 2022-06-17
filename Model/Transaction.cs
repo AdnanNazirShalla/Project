@@ -21,6 +21,16 @@ namespace Model
 
         public int Pin { get; set; }
     }
+
+    public class TransactionResponse
+    {
+        public double Debit { get; set; }
+
+        public double Credit { get; set; }
+
+        public DateTime dateTime { get; set; }
+
+    }
     public class Transfer
     {
         public Guid _id { get; set; }

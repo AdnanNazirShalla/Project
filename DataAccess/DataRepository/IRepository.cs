@@ -20,10 +20,6 @@ namespace DataAccess.DataRepository
         int AddandSave<T>(T model) where T : class;
 
 
-        int Delete<T>(T model) where T : class;
-
-
-        void Delete<T>(Guid id) where T : class;
 
         int DeleteAndSave<T>(Guid id) where T : class;
 

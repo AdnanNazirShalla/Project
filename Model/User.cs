@@ -40,10 +40,14 @@ namespace Model
 
 
         [Required(ErrorMessage = "Required!")]
+        //[MinLength(4,ErrorMessage ="The Minimum Length Of Pin Should Be 4 Digits")]
+        //[MaxLength(6,ErrorMessage ="The Maximum Length Of Pin Should Be 6 Digits")]
         public int _pin { get; set; }
 
         public DateTime date { get; set; }
     }
+
+
 
 
 

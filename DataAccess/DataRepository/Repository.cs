@@ -21,15 +21,7 @@ namespace DataAccess.DataRepository
             return appDbContext.SaveChanges();
         }
 
-        public int Delete<T>(T model) where T : class
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete<T>(Guid id) where T : class
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public int DeleteAndSave<T>(Guid id) where T : class
         {
