@@ -18,18 +18,18 @@ namespace BusinessManager
         }
 
 
-        public LoginResponse Find(TransactionRequest transaction)
+        public LoginResponse Find(Guid id ,TransactionRequest transaction)
         {
             BankTransaction bankTransaction = new BankTransaction();
             LoginResponse loginResponse = new LoginResponse();
-            User sender = repository.FindBy<User>(x => x.Id == transaction.Id).FirstOrDefault();
+            User sender = repository.FindBy<User>(x => x.Id == id).FirstOrDefault();
 
             bankTransaction.Id = Guid.NewGuid();
             bankTransaction.Debit = transaction.Amount;
             bankTransaction.userId = sender.Id;
             bankTransaction.dateTime = DateTime.Now;
             User receiver = repository.FindBy<User>(x => x.Email == transaction.Email).FirstOrDefault();
-            if (receiver != null && sender.Balance-transaction.Amount>0)
+            if (receiver != null && sender.Balance-transaction.Amount>0 )
             {
                 sender.Balance = sender.Balance - transaction.Amount;
                 var a = repository.AddandSave<BankTransaction>(bankTransaction);

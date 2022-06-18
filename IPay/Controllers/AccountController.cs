@@ -9,7 +9,7 @@ namespace IPay.Controllers
     public class AccountController : Controller
     {
         private readonly AccountManager accountManager = null;
-        private readonly UserManager userManager = null;
+        private readonly UserManager userManager ;
         public AccountController(IRepository repository)
         {
             accountManager = new AccountManager(repository);
@@ -24,12 +24,12 @@ namespace IPay.Controllers
         }
 
         [HttpPost("sendMoney")]
-        public IActionResult SendMoney(TransactionRequest transaction)
+        public IActionResult SendMoney(Guid id,TransactionRequest transaction)
         {
             string r = transaction.Pin.ToString();
-            if (User.GetUserPin() == r )
+            if (User.GetUserPin() == r && transaction.Email!=User.GetUserEmail())
             {
-                LoginResponse receiver = accountManager.Find(transaction);
+                LoginResponse receiver = accountManager.Find(id,transaction);
 
                 if (!receiver.HasError)
                 {
