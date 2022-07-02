@@ -62,12 +62,12 @@ namespace BusinessManager
             LoginResponse loginResponse = new LoginResponse();
             User user = repository.FindBy<User>(x => x.Email == loginRequest.Email).FirstOrDefault();
 
-            if (user == null)
+            if (user == null )
             {
                 loginResponse.HasError = true;
                 return loginResponse;
             }
-            else if (loginRequest.Password != user.Password)
+            else if (loginRequest.Password != user.Password )
             {
                 loginResponse.HasError = true;
                 return loginResponse;

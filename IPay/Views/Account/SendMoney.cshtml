@@ -87,7 +87,7 @@
             <div class="transfer t1">
 
 
-                <form asp-action="SendMoney">
+                <form asp-action="SendMoney" method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
                         <input asp-for="Id" type="hidden" value="@User.GetUserId()" class="form-control" />
@@ -108,14 +108,12 @@
                         <span asp-validation-for="Pin" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="transfer" class="btn btn-primary" />
-                    </div>
-                </form>
-
-            <div class="form-group">
-                <input type="submit" asp-route-id="@User.GetUserId()" value="Submit" class="btn btn-primary" />
+                <input type="submit" asp-route-id="@User.GetUserId()" value="Transfer" class="btn btn-primary" />
 
             </div>
+                </form>
+
+            
         </div>
     </div>
 </div>

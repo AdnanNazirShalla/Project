@@ -40,7 +40,7 @@ namespace DataAccess.DataRepository
 
         public T GetById<T>(Guid id) where T : class
         {
-            throw new NotImplementedException();
+            return appDbContext.Set<T>().Find(id);
         }
 
         public bool IsExist<T>(Expression<Func<T, bool>> predicate) where T : class

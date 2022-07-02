@@ -144,18 +144,18 @@
 <div class="grid-2">
     <div>
         <img class="profile" src="http://localhost:5230/LayoutImages/user2.png" alt="" />
-
+        <a class="send-money" asp-route-id="@User.GetUserId()" asp-controller="Account" asp-action="Profile">Profile &raquo;</a>
     </div>
   
     <div>
         <img class="fund-transfer" src="http://localhost:5230/LayoutImages/online-banking.png" alt="Fundtransfer" />
-        <a class="send-money" asp-controller="Account" asp-action="SendMoney">Transfer &raquo;</a>
+        <a class="send-money" asp-route-id="@User.GetUserId()" asp-controller="Account" asp-action="SendMoney">Transfer &raquo;</a>
 
     </div>
     <div>
 
         <img class="password" src="http://localhost:5230/LayoutImages/password.png" alt="password" />
-
+         <a class="send-money" asp-route-id="@User.GetUserId()" asp-controller="Account" asp-action="ChangePassword">Change Password &raquo;</a>
     </div>
 </div>
 

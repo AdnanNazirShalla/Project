@@ -18,7 +18,7 @@ namespace BusinessManager
         }
 
 
-        public LoginResponse Find(Guid id ,TransactionRequest transaction)
+        public LoginResponse Find(Guid id, TransactionRequest transaction)
         {
             BankTransaction bankTransaction = new BankTransaction();
             LoginResponse loginResponse = new LoginResponse();
@@ -29,7 +29,7 @@ namespace BusinessManager
             bankTransaction.userId = sender.Id;
             bankTransaction.dateTime = DateTime.Now;
             User receiver = repository.FindBy<User>(x => x.Email == transaction.Email).FirstOrDefault();
-            if (receiver != null && sender.Balance-transaction.Amount>0 )
+            if (receiver != null && sender.Balance - transaction.Amount > 0)
             {
                 sender.Balance = sender.Balance - transaction.Amount;
                 var a = repository.AddandSave<BankTransaction>(bankTransaction);
@@ -53,7 +53,7 @@ namespace BusinessManager
                 loginResponse.HasError = true;
                 return loginResponse;
             }
-            
+
         }
 
         public int UpdateCreditor(Transfer transfer)
@@ -72,7 +72,23 @@ namespace BusinessManager
             return res;
         }
 
+        public UserRequest GetProfile(Guid id)
+        {
+            User user = repository.GetById<User>(id);
 
+            UserRequest request = new UserRequest()
+            {
+                Id = id,
+                Name = user.Name,
+                Email=user.Email,
+                Balance = user.Balance,
+                Gender = user.Gender,
+                userStatus=user.userStatus
+                
+            };
+
+            return request;
+        }
         
     }
 }

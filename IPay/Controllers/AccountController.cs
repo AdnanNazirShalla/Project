@@ -54,6 +54,15 @@ namespace IPay.Controllers
             }
         }
 
+        [HttpGet("profile")]
+        public IActionResult Profile(Guid id)
+        {
+           var user= accountManager.GetProfile(id);
+            return View(user);
+        }
+
+
+
         [HttpGet]
         public IActionResult Index()
         {
