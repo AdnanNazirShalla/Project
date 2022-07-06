@@ -1904,34 +1904,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "/Users/ishah/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
+      "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj",
       "projectName": "BusinessManager",
-      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\obj\\",
+      "projectPath": "/Users/ishah/Documents/GitHub/Project/BusinessManager/BusinessManager.csproj",
+      "packagesPath": "/Users/ishah/.nuget/packages/",
+      "outputPath": "/Users/ishah/Documents/GitHub/Project/BusinessManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ishah/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj"
+            "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/ishah/Documents/GitHub/Project/DataAccess/DataAccess.csproj"
             }
           }
         }
@@ -1986,7 +1984,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -34,10 +34,7 @@ namespace IPay.Controllers
               int res=  manager.Update(user);
                 if (res>0)
                 {
-                if ()
-                {
-
-                }
+             
                     ViewBag.Message = "User Updated Successfully";
                 }
 
