@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {}
+    "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+    "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "projectUniqueName": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\obj\\",
+        "projectPath": "/Users/ishah/Documents/GitHub/Project/Model/Model.csproj",
+        "packagesPath": "/Users/ishah/.nuget/packages/",
+        "outputPath": "/Users/ishah/Documents/GitHub/Project/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ishah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +78,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+>>>>>>> cf4aa864436560ed01066ac0805584575e74e7e5
         }
       }
     }
