@@ -34,11 +34,7 @@ namespace IPay.Controllers
               int res=  manager.Update(user);
                 if (res>0)
                 {
-<<<<<<< HEAD
-                
-=======
-             
->>>>>>> cf4aa864436560ed01066ac0805584575e74e7e5
+
                     ViewBag.Message = "User Updated Successfully";
                 }
 
