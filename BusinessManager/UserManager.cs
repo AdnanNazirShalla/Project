@@ -80,6 +80,8 @@ namespace BusinessManager
                 loginResponse.Email = user.Email;
                 loginResponse.Balance = user.Balance;
                 loginResponse._pin = user.Pin;
+                loginResponse.userRole = user.userRole;
+                loginResponse.userStatus = user.userStatus;
                 return loginResponse;
             }
         }

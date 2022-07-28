@@ -7,7 +7,7 @@ namespace Model
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Required!")]
-        [RegularExpression("[a-zA-Z]", ErrorMessage = "only alphabet")]
+        [RegularExpression("[a-zA-Z ]+", ErrorMessage = "Only Alphabet Allowed")]
         public string Name { get; set; }
 
 

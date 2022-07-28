@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HoMYDzEPpVOVwi9b/BlMXF6X1MoQviR6uIqinPCkBNQ=",
+  "Hash": "F5njW2Y79j4ZmsYpqhwVlRXuwyFsu8GUvZcSzvPNqhM=",
   "Source": "IPay",
   "BasePath": "_content/IPay",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\css\\admin.css",
+      "SourceId": "IPay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\",
+      "BasePath": "_content/IPay",
+      "RelativePath": "css/admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\css\\site.css",
       "SourceId": "IPay",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\js\\admin.js",
+      "SourceId": "IPay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\",
+      "BasePath": "_content/IPay",
+      "RelativePath": "js/admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin.js"
     },
     {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\wwwroot\\js\\script.js",

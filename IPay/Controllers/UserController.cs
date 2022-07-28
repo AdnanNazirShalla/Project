@@ -77,6 +77,10 @@ namespace IPay.Controllers
                         ExpiresUtc = DateTime.UtcNow.AddSeconds(30)
                     });
 
+                if (loginResponse.userRole==UserRole.Admin)
+                {
+                    return RedirectToAction("getall", "Admin");
+                }
                     return RedirectToAction("index", "account");
                 }
             
