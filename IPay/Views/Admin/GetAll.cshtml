@@ -3,13 +3,39 @@
 @{
     Layout = "_AdminLayout";
 }
+<style>
+    h1{
+        font-size:2rem;
+      text-align:center;
+    }
+    .head1{
+            background-color: blueviolet;
+             text-align:center;
+    }
+    .body1{
+            background-color: dimgrey;
+    color: white;
+    text-align:center;
+}
+.flex{
+        display: flex;
+    position: absolute;
+    left: 225px;
+    width:100%;
+}
+
+</style>
 
 
-<h1>GetAll</h1>
 
 
+<h1>All Users</h1>
+
+
+<div class="ham">
 <table class="table">
-    <thead>
+    <thead class="head1">
+
         <tr>
             
             <th>
@@ -38,51 +64,55 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="body1">
+        
+
+
 @{foreach (var item in Model) {
-        <tr>
-            
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gender)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.userRole)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.userStatus)
-            </td>
-           
-            <td>
-                @Html.DisplayFor(modelItem => item.Balance)
-            </td>
-            
-            <td>
-                @Html.DisplayFor(modelItem => item.date)
-            </td>
-            <td>
-            <a asp-controller="admin" asp-action="edit" asp-route-id="{@item.Id}">Edit</a>
-            <a asp-route-id="{@item.Id}">Details</a>
-                        @{
+                                        <tr>
+                                            
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Email)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Gender)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.userRole)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.userStatus)
+                                            </td>
+                                           
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Balance)
+                                            </td>
+                                            
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.date)
+                                            </td>
+                                            <td>
+                                            <a asp-controller="admin" asp-action="edit" asp-route-id="{@item.Id}">Edit</a>
+                                            <a asp-route-id="{@item.Id}">Details</a>
+                                                        @{
                             if (item.userStatus==UserStatus.Active)
                             {
-                                <a asp-controller="admin" asp-action="ActiveAndInactive" asp-route-id="{@item.Id}">Inactive</a>
+                                                                                                <a asp-controller="admin" asp-action="ActiveAndInactive" asp-route-id="{@item.Id}">Inactive</a>
                             }
                             else
                             {
-                                 <a asp-controller="admin" asp-action="ActiveAndInactive" asp-route-id="{@item.Id}">Active</a>
+                                                                                                 <a asp-controller="admin" asp-action="ActiveAndInactive" asp-route-id="{@item.Id}">Active</a>
                             }
-                        }
-                
-            </td>
-            
-        </tr>
+                                                        }
+                                                
+                                            </td>
+                                            
+                                        </tr>
 }}
     </tbody>
 </table>
-
+</div>
+<script src="js/admin.js"></script>

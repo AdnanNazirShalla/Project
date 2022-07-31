@@ -3,13 +3,32 @@
 @{
     ViewData["Title"] = "Profile";
 }
+<style>
+    h1{
+        font-size: 1.5em;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+    .row1{
+            display: grid;
+    grid-template-columns: 1fr 1fr;
+    length: 100%;
+    grid-gap: 25px;
+    width: 100%;
+    justify-items: center;
+    background-color: cadetblue;
+    font-family: cursive;
+    }
+
+</style>
 
 <h1>Profile</h1>
 
 <div>
-    <h4>UserRequest</h4>
-    <hr />
-    <dl class="row">
+ 
+    <dl class="row row1">
         
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)

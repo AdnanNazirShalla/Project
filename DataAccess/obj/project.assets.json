@@ -1883,19 +1883,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\haris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1909,8 +1909,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj"
+            "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj"
             }
           }
         }
@@ -1965,16 +1965,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
