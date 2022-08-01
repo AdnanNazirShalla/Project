@@ -4,8 +4,47 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<style>
+    .edit{
+        background-color: cadetblue;
+    color: aliceblue;
+    text-align: center;
+    }
+    .form1{
+            display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    font-size: 22px;
+    margin-top: 8px;
+    background-color: beige;
+    }
 
-<h1>Edit</h1>
+    .form-group{
+        margin:3px;
+    }
+    .form-control{
+        margin-left: 12px;
+    width: 300px;
+    border-radius: 9px;
+    padding:12px;
+    font-size:17px;
+}
+.btn-primary{
+    margin-bottom:22px;
+            background-color: antiquewhite;
+            color:cadetblue;
+}
+.radio{
+    width: 29%;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 17px;
+    margin-left: 5px;
+}
+    
+</style>
+
+<h1 class="edit">Edit</h1>
 
 
 <hr />
@@ -17,6 +56,12 @@
                 <input asp-for="Id" hidden value="@Model.Id" class="form-control" />
 
            </div>
+
+
+           <div class="form1">
+
+
+       
 
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
@@ -30,44 +75,52 @@
             </div>
             <div class="form-group">
                 <label asp-for="Gender" class="control-label"></label>
-                <select asp-for="Gender" asp-items="@Html.GetEnumSelectList<Gender>()">  </select>
+                <select asp-for="Gender" class="radio" asp-items="@Html.GetEnumSelectList<Gender>()">  </select>
                 <span asp-validation-for="Gender" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="userRole" class="control-label"></label>
-                <select asp-for="userRole" asp-items="@Html.GetEnumSelectList<UserRole>()">  </select>
+                <select asp-for="userRole" class="radio" asp-items="@Html.GetEnumSelectList<UserRole>()">  </select>
                 <span asp-validation-for="userRole" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="userStatus" class="control-label"></label>
-                <select asp-for="userStatus" asp-items="@Html.GetEnumSelectList<UserStatus>()">  </select>
+                <select asp-for="userStatus" class="radio" asp-items="@Html.GetEnumSelectList<UserStatus>()">  </select>
                 <span asp-validation-for="userStatus" class="text-danger"></span>
-            </div>
+            </div>            <div class="form-group">
+
             
-            <div class="form-group">
                 <label asp-for="Balance" class="control-label"></label>
                 <input asp-for="Balance" value="@Model.Balance" class="form-control" />
                 <span asp-validation-for="Balance" class="text-danger"></span>
             </div>
-            <div>
-                 <label asp-for="Password" class="control-label"></label>
+            <div class="form-group">
+
+                 
                  <input asp-for="_password" value="@Model._password" class="form-control" />
                  
+             
             </div>
-           <div>
-                 <label asp-for="Password" class="control-label"></label>
-                <input asp-for="_pin" value="@Model._pin" class="form-control" />
-           </div>
+             <div class="form-group">
+                    <input asp-for="_pin" value="@Model._pin" class="form-control" />
+                 </div>
+            
+
+           
+               
+           
 
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
+           </div>
+           <div>
+    <a href="/admin" style="">Back to List</a>
+</div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 

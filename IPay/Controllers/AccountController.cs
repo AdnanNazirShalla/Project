@@ -8,7 +8,7 @@ namespace IPay.Controllers
     [Route("account")]
     public class AccountController : Controller
     {
-        private readonly AccountManager accountManager = null;
+        private readonly AccountManager accountManager= null;
         private readonly UserManager userManager ;
         public AccountController(IRepository repository)
         {
