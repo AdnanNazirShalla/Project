@@ -89,6 +89,31 @@ namespace BusinessManager
 
             return request;
         }
+
+        public int changePassword(Guid id, ChangePassword change)
+        {
+           User user= repository.GetById<User>(id);
+
+            if (user.Password==change.oldPassword)
+            {
+                user.Password = change.newPassword;
+               return repository.UpdateAndSave<User>(user);
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        public string GetBalance(Guid id)
+        {
+            User user=repository.GetById<User>(id);
+            if (user!=null) 
+            { 
+                return user.Balance.ToString(); 
+            }
+            return null;
+        }
         
     }
 }

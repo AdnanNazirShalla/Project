@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
         }
       }
     }

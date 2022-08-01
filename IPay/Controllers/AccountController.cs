@@ -62,11 +62,32 @@ namespace IPay.Controllers
         }
 
 
+        [HttpGet("changepassword")]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost("changepassword")]
+        public IActionResult ChangePassword(Guid id ,ChangePassword change)
+        {
+           int res= accountManager.changePassword(id,change);
+            if (res>0)
+            {
+                ViewBag.Message = "Password Changed Successfully";
+            }
+            else
+            {
+                ViewBag.Error = "Password Does Not Match";
+            }
+            return View();
+        }
 
         [HttpGet]
         public IActionResult Index()
         {
           var res=  userManager.GetUserTransaction(User.GetUserId()).OrderBy(x => x.dateTime.Month).OrderBy(x=>x.dateTime.Date).OrderBy(x=>x.dateTime.Hour).OrderBy(x=>x.dateTime.Minute).OrderBy(x=>x.dateTime.Second);
+            ViewBag.Balance = accountManager.GetBalance(User.GetUserId());
             return View(res);
         }
 

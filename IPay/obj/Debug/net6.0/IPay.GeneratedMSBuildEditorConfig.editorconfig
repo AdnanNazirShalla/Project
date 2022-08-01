@@ -8,73 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IPay
 build_property.RootNamespace = IPay
-build_property.ProjectDir = C:\Users\haris\Documents\GitHub\Project\IPay\
+build_property.ProjectDir = C:\Users\HP\Documents\GitHub\Project\IPay\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\haris\Documents\GitHub\Project\IPay
+build_property.MSBuildProjectDirectory = C:\Users\HP\Documents\GitHub\Project\IPay
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Account/Index.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Account/Profile.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Account/SendMoney.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Account/SendMoney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZW5kTW9uZXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Admin/Edit.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Admin/GetAll.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Admin/GetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Home/Index.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Home/Privacy.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Shared/Error.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Shared/_TransactionPartial.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Shared/_TransactionPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmFuc2FjdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/User/LogIn.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/User/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/User/SignUp.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/_ViewImports.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/_ViewStart.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/Documents/GitHub/Project/IPay/Views/Shared/_Layout.cshtml]
+[C:/Users/HP/Documents/GitHub/Project/IPay/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cjketi5hjn
