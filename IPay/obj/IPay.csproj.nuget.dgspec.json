@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\IPay.csproj": {}
+    "C:\\Users\\haris\\Documents\\GitHub\\Project\\IPay\\IPay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj": {
+    "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
         "projectName": "BusinessManager",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\obj\\",
+        "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj",
+        "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -84,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +112,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj"
+              "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj"
               }
             }
           }
@@ -168,21 +168,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\IPay.csproj": {
+    "C:\\Users\\haris\\Documents\\GitHub\\Project\\IPay\\IPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\IPay.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\IPay\\IPay.csproj",
         "projectName": "IPay",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\IPay.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\IPay\\obj\\",
+        "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\IPay\\IPay.csproj",
+        "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\IPay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,11 +196,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj"
+              "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj": {
+                "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\BusinessManager\\BusinessManager.csproj"
               },
-              "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -266,21 +266,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
+    "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Project\\Model\\obj\\",
+        "projectPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\GitHub\\Project\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -346,7 +346,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
